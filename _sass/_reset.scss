@@ -1,3 +1,7 @@
 * {
   box-sizing: border-box;
+  transition: .2s ease;
+  transition-property: color, background-color, border-color, opacity, visibility;
+  font: inherit;
+  margin: 0;
 }

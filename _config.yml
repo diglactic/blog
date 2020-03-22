@@ -2,8 +2,9 @@ name: Diglactic Newsroom
 
 google_analytics: UA-135017895-2
 
-# Root website URL
-# Used for Sitemap.xml and your RSS feed
+copy_text: 2020 Diglactic
+
+# Root website URL used for Sitemap.xml and your RSS feed
 url: https://newroom.diglactic.com
 
 baseurl: ''

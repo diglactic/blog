@@ -1,2 +1,53 @@
 @import 'reset';
-@import 'variables';
+@import 'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&display=swap';
+
+html {
+  font: 16px 'IBM Plex Sans', sans-serif;
+}
+
+body {
+  font-size: 0;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.site {
+  &-header {
+    margin: 2rem 0;
+
+    &__logo {
+      max-width: 80%;
+      width: 12rem;
+    }
+  }
+
+  &-content {
+    margin: 2rem 0;
+    font-size: 1rem;
+  }
+
+  &-footer {
+    margin: 2rem 0;
+    font-size: .85rem;
+  }
+}
+
+.page {
+  &__title {
+    //
+  }
+
+  &__content {
+    //
+  }
+}
+
+.post {
+  &__title {
+    //
+  }
+
+  &__content {
+    //
+  }
+}

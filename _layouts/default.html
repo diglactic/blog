@@ -11,23 +11,22 @@
           type="text/css"
           href="{{ site.baseurl }}/style.css">
 </head>
-
 <body>
-    <header>
-        <h1>
-            <a href="{{ site.baseurl }}">
-                {{ site.name }}
-            </a>
-        </h1>
+    <header class="site-header">
+        <a href="{{ site.baseurl }}">
+            <img src="/images/logo.svg"
+                 class="site-header__logo"
+                 alt="Diglactic Logo">
+        </a>
     </header>
 
-    <div>
+    <div class="site-content">
         {{ content }}
     </div>
 
 
-    <footer>
-        &copy; 2020 Diglactic
+    <footer class="site-footer">
+        &copy; {{ site.copy_text}}
     </footer>
 
     {% include analytics.html %}
