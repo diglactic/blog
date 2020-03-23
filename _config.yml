@@ -1,40 +1,14 @@
-name: Diglactic Newsroom
+title: Diglactic Newsroom
 
 google_analytics: UA-135017895-2
 
 copy_text: 2020 Diglactic
 
-# Root website URL used for Sitemap.xml and your RSS feed
-url: https://newroom.diglactic.com
+# Root website URL used for RSS feed
+url: https://newsroom.diglactic.com
 
-baseurl: ''
+baseurl: ""
 
 permalink: /:title/
 
-# Jekyll version
-version: v1.2.0
-
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded
-
-gems:
-  # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-sitemap
-  # Create an Atom feed using the official Jekyll feed gem
-  - jekyll-feed
-
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
-  - .gitignore
+plugins: ["jekyll-feed"]

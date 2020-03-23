@@ -2,19 +2,19 @@
 <html>
 <head>
     <title>
-        {% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}
+        {% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}
     </title>
 
     {% include meta.html %}
 
     <link rel="stylesheet"
           type="text/css"
-          href="{{ site.baseurl }}/style.css">
+          href="/assets/css/style.css">
 </head>
 <body>
     <header class="site-header">
-        <a href="{{ site.baseurl }}">
-            <img src="/images/logo.svg"
+        <a href="{{ site.baseurl }}/">
+            <img src="/assets/images/logo.svg"
                  class="site-header__logo"
                  alt="Diglactic Logo">
         </a>
