@@ -1,53 +1,124 @@
+---
+---
+
+// Signal Jekyll to override default styles
+
+
 @import 'reset';
-@import 'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap';
 
 html {
   font: 16px 'IBM Plex Sans', sans-serif;
+  cursor: default;
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
   font-size: 0;
   max-width: 1024px;
+  min-width: 320px;
   margin: 0 auto;
+  background: #f5f5f5;
+  padding: 1rem;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .site {
   &-header {
-    margin: 2rem 0;
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+
+    &__logo-link {
+      max-width: 80%;
+      width: 14rem;
+      flex: 0 0 auto;
+    }
 
     &__logo {
-      max-width: 80%;
-      width: 12rem;
+      width: 100%;
     }
   }
 
   &-content {
-    margin: 2rem 0;
     font-size: 1rem;
   }
 
   &-footer {
-    margin: 2rem 0;
+    margin: auto 0 0;
+    padding: 2rem 0;
+    font-size: .75rem;
+    text-transform: uppercase;
+    color: #555;
+  }
+}
+
+.page,
+.post {
+  &__type {
+    text-transform: uppercase;
     font-size: .85rem;
   }
-}
 
-.page {
+  &__date {
+    font-size: .85rem;
+  }
+
   &__title {
-    //
+    margin: .5rem 0;
+    font-weight: bold;
+    font-size: 4rem;
   }
 
   &__content {
-    //
+    text-align: justify;
+
+    p {
+      font-size: 1rem;
+      margin: 3rem 0;
+      line-height: 1.85;
+    }
+
+    a {
+      color: #5627c2;
+    }
   }
 }
 
-.post {
-  &__title {
-    //
-  }
+.index {
+  &-post-list {
+    &__item {
+      background: #fff;
+      box-shadow: 0 1rem 2rem -1rem rgba(0, 0, 0, .08);
+      padding: 2rem;
+      display: block;
+      margin: 1rem 0;
+      border-radius: .25rem;
 
-  &__content {
-    //
+      &:hover,
+      &:focus {
+        box-shadow: 0 2rem 2rem -1rem rgba(0, 0, 0, .1);
+      }
+
+      &-title {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      &-date {
+        font-size: .85rem;
+        margin: .5rem 0 0;
+      }
+    }
   }
 }

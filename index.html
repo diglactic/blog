@@ -2,23 +2,18 @@
 layout: default
 ---
 
-<div class="posts">
+<div class="index-post-list">
     {% for post in site.posts %}
 
-    <article>
-        <h1>
-            <a href="{{ site.baseurl }}{{ post.url }}">
-                {{ post.title }}
-            </a>
-        </h1>
-
-        <div>
-            {{ post.excerpt }}
+    <a class="index-post-list__item"
+       href="{{ site.baseurl }}{{ post.url }}">
+        <h2 class="index-post-list__item-title">
+            {{ post.title }}
+        </h2>
+        <div class="index-post-list__item-date">
+            {{ post.date | date: "%B %e, %Y" }}
         </div>
+    </a>
 
-        <a href="{{ site.baseurl }}{{ post.url }}">
-            Read More
-        </a>
-    </article>
     {% endfor %}
 </div>

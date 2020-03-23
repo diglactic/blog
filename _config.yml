@@ -2,7 +2,7 @@ title: Diglactic Newsroom
 
 google_analytics: UA-135017895-2
 
-copy_text: 2020 Diglactic
+copy_text: 2020 Diglactic, LLC
 
 # Root website URL used for RSS feed
 url: https://newsroom.diglactic.com
@@ -12,3 +12,5 @@ baseurl: ""
 permalink: /:title/
 
 plugins: ["jekyll-feed"]
+
+excerpt_separator   : "\n\n"
