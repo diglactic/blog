@@ -81,14 +81,42 @@ a {
   }
 
   &__content {
-    p {
+    h2,
+    p,
+    pre,
+    hr {
       font-size: 1rem;
-      margin: 3rem 0;
+      margin: 2rem 0;
       line-height: 1.85;
     }
 
     a {
       color: #5627c2;
+      text-decoration: underline;
+
+      &:focus {
+        text-decoration: none;
+      }
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    hr {
+      background: #aaa;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 10rem;
+    }
+
+    pre {
+      border-radius: .25rem;
+      font: .85rem monospace;
+      background: #000;
+      color: #fff;
+      padding: 1rem 2rem;
+      overflow: auto;
     }
   }
 }

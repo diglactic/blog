@@ -3,10 +3,11 @@
 ## Install on Virtual Box
 ```shell script
 apt-get install ruby-full
+gem install bundler
 git clone https://github.com/diglactic/newsroom.git newsroom
 cd newsroom
 bundle install
-jekyll serve -H 192.168.1.100 --force_polling
+jekyll serve -H 192.168.10.10 --force_polling
 ```
 
 ## Credits
