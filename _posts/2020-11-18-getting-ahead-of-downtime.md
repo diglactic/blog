@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting Ahead of Downtime
+title: "Getting Ahead of Downtime"
 ---
 
 The latest changes are pushed. Your servers are up to date. Project complete, case closed.
