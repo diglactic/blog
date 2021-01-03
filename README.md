@@ -14,5 +14,4 @@ jekyll serve -H 192.168.10.10 --force_polling
 Forked from [barryclark/jekyll-now](https://github.com/barryclark/jekyll-now).
 
 ---
-
 &copy; 2021 Diglactic, LLC
