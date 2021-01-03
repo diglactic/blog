@@ -20,7 +20,7 @@ pick up on simple oversights like misconfiguring an SSL certificate or forgettin
 have a status page set up with each of the sites we maintain to keep track of downtime, and we'll get an email delivered
 to our inboxes within minutes of a site going down.
 
-![Internal status dashboard screenshot](/assets/2020-11-18-getting-ahead-of-downtime--status-dashboard.jpg)
+![Internal status dashboard screenshot](/assets/images/posts/2020-11-18-getting-ahead-of-downtime--status-dashboard.jpg)
 
 *Our internal uptime dashboard*
 
