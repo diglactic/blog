@@ -21,7 +21,6 @@ have a status page set up with each of the sites we maintain to keep track of do
 to our inboxes within minutes of a site going down.
 
 ![Internal status dashboard screenshot](/assets/images/posts/2020-11-18-getting-ahead-of-downtime--status-dashboard.jpg)
-
 *Our internal uptime dashboard*
 
 While this isn't a bulletproof solution (a logic issue, for instance, could very well pass through undetected), it'll

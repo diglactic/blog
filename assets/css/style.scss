@@ -91,10 +91,6 @@ a {
       margin: 2.5rem 0;
     }
 
-    img {
-      max-width: 100%;
-    }
-
     b,
     strong {
       font-weight: bold;
@@ -138,6 +134,17 @@ a {
       padding: 1rem 2rem;
       overflow: auto;
       line-height: 1.65;
+    }
+
+
+    img {
+      max-width: 100%;
+    }
+
+    // Image caption
+    img + em {
+      display: block;
+      text-align: center;
     }
   }
 }
