@@ -3,7 +3,6 @@
 
 // Signal Jekyll to override default styles
 
-
 @import 'reset';
 @import 'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap';
 
@@ -90,6 +89,20 @@ a {
     pre,
     hr {
       margin: 2.5rem 0;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    b,
+    strong {
+      font-weight: bold;
+    }
+
+    i,
+    em {
+      font-style: italic;
     }
 
     a {
